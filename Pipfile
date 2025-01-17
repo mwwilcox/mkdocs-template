@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mkdocs = "*"
+mkdocs-material = "*"
+mkdocs-blogging-plugin = "*"
+mkdocs-material-extensions = "*"
+mkdocs-mermaid2-plugin = "*"
+mkdocs-monorepo-plugin = "*"
+pymdown-extensions = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.8"
