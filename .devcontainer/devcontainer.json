@@ -1,0 +1,45 @@
+{
+    "name": "MkDocs Python 3 Development Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "settings": {
+            "files.eol": "\n",
+            "editor.formatOnSave": true,
+            "python.testing.pytestArgs": ["."],
+            "python.testing.unittestEnabled": false,
+            "python.testing.pytestEnabled": true,
+            "python.formatting.provider": "black",
+            "python.linting.mypyEnabled": true,
+            "python.linting.enabled": true,
+            "remote.extensionKind": {
+                "ms-azuretools.vscode-docker": "workspace"
+            }
+        },
+        "vscode": {
+            "extensions": [
+                "davidanson.vscode-markdownlint",
+                "mhutchie.git-graph",
+                "ms-python.autopep8",
+                "ms-python.debugpy",
+                "vscode-icons-team.vscode-icons",
+                "ms-python.python",
+                "ms-vscode-remote.remote-ssh",
+                "redhat.ansible",
+                "ms-azuretools.vscode-docker",
+                "GitHub.vscode-pull-request-github",
+                "GitHub.copilot-chat",
+                "eamodio.gitlens",
+                "kameshkotwani.google-search",
+                "yzhang.markdown-all-in-one",
+                "esbenp.prettier-vscode",
+                "Gruntfuggly.todo-tree",
+                "redhat.vscode-yaml"
+            ]
+        }
+    },
+    "postCreateCommand": "/bin/bash .devcontainer/scripts/postCreate.sh",
+    "forwardPorts": [8000],
+    "remoteUser": "root"
+}
