@@ -20,6 +20,6 @@ I have recently added a devcontainer to the repo.
 
 I have included a bash helper script named `serve.sh` which will start the dev server
 
-Direct your browser to <http://localhost:3000>
+Direct your browser to <http://localhost:8000>
 
 Happy blogging!
