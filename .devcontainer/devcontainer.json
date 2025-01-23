@@ -38,7 +38,7 @@
             ]
         }
     },
-    "postCreateCommand": ".devcontainer/scripts/postCreate.sh",
+    "postCreateCommand": "/bin/bash .devcontainer/scripts/postCreate.sh",
     "forwardPorts": [8000],
     "remoteUser": "root"
 }
