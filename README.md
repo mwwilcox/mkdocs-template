@@ -11,8 +11,14 @@ If you want to deploy your doc site to github or other you can find some informa
 ```bash
 git clone https://github.com/mwwilcox/mkdocs-template.git
 pipenv install
-pipenv run mkdocs serve -a localhost:3000
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+pipenv run mkdocs serve -a localhost:8000
 ```
+
+I have recently added a devcontainer to the repo.
+
+I have included a bash helper script named `serve.sh` which will start the dev server
 
 Direct your browser to <http://localhost:3000>
 

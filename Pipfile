@@ -16,3 +16,6 @@ pymdown-extensions = "*"
 
 [requires]
 python_version = "3.12"
+
+[scripts]
+serve = "LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 mkdocs serve -a localhost:8000"

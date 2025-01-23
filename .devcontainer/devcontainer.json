@@ -29,6 +29,7 @@
                 "redhat.ansible",
                 "ms-azuretools.vscode-docker",
                 "GitHub.vscode-pull-request-github",
+                "GitHub.copilot-chat",
                 "eamodio.gitlens",
                 "kameshkotwani.google-search",
                 "yzhang.markdown-all-in-one",
