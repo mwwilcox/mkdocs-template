@@ -1,0 +1,11 @@
+site_name: Jericho Docs
+plugins:
+  - search
+  - blogging:
+      dirs:
+        - blog
+      template: override/custom-blog.html
+      categories:
+        - name: reviews
+          dirs:
+            - reviews
