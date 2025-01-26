@@ -30,6 +30,7 @@ plugins:
   - blogging:
       dirs:
         - blog
+  - monorepo
 markdown_extensions:
   - pymdownx.critic
   - pymdownx.caret
@@ -61,5 +62,6 @@ extra:
     CloudFormation: cfn
 nav:
   - Home: index.md
-  - Blog:
-      - Blog: blog/index.md
+  # - Blog:
+  #     - Blog: blog/index.md
+  - Daily Dev: '!include ./docs/mkdocs.yml'
